@@ -1,0 +1,22 @@
+{
+  "description": "snapshot versions of Angular for e2e testing",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "github:angular/animations-builds#00f3c3f0cc27a02eecd1215c66a87b3bbd372ec2",
+    "@angular/cdk": "github:angular/cdk-builds#ca8d21a3435bc0a77234731ac8994285a3cfb6fc",
+    "@angular/common": "github:angular/common-builds#f51a72b205cd4b1b61c54d867386f367f4effd86",
+    "@angular/compiler": "github:angular/compiler-builds#19c286a174bcef650ab65e405f9f39b149fe93a4",
+    "@angular/compiler-cli": "github:angular/compiler-cli-builds#57c064a68e8603d043f7f1021d5f527be4c06612",
+    "@angular/core": "github:angular/core-builds#aefd55b2a0a0e1569cb5917cf420c1be42cee3c4",
+    "@angular/forms": "github:angular/forms-builds#efdae9d065d6b88575ae0d06123c3bbd16a4a682",
+    "@angular/language-service": "github:angular/language-service-builds#0c6754c5ba45665e4f8a479b8ed070be20cd8c4d",
+    "@angular/localize": "github:angular/localize-builds#4f1fe8316d029794155fb0606e6c8871c5d92622",
+    "@angular/material": "github:angular/material-builds#ff5c7f59359f1466d995ae43d868c5418f90a6d9",
+    "@angular/material-moment-adapter": "github:angular/material-moment-adapter-builds#19e620fe1ea5a7b4cf25f52da91bbf31fd7a8839",
+    "@angular/platform-browser": "github:angular/platform-browser-builds#8514d52ca95060be8ccdd6e16b7e5ab240f90841",
+    "@angular/platform-browser-dynamic": "github:angular/platform-browser-dynamic-builds#1aff4583df7a602d0332fcb58c5630941345753b",
+    "@angular/platform-server": "github:angular/platform-server-builds#602378c62e021d5c5371264a8f9998d33a9d3e4a",
+    "@angular/router": "github:angular/router-builds#bfb279cce0bd7b441965f474393eb6589e525973",
+    "@angular/service-worker": "github:angular/service-worker-builds#66d1241b960cd51c589b1acc505d24ef49fe6a0d"
+  }
+}

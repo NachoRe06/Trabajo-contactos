@@ -1,0 +1,47 @@
+{
+  "name": "@angular/ssr",
+  "version": "0.0.0-PLACEHOLDER",
+  "description": "Angular server side rendering utilities",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/angular/angular-cli",
+  "keywords": [
+    "angular",
+    "ssr",
+    "universal"
+  ],
+  "ng-add": {
+    "save": "dependencies"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {
+    "@angular/common": "0.0.0-ANGULAR-FW-PEER-DEP",
+    "@angular/core": "0.0.0-ANGULAR-FW-PEER-DEP",
+    "@angular/platform-server": "0.0.0-ANGULAR-FW-PEER-DEP",
+    "@angular/router": "0.0.0-ANGULAR-FW-PEER-DEP"
+  },
+  "peerDependenciesMeta": {
+    "@angular/platform-server": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@angular-devkit/schematics": "workspace:*",
+    "@angular/common": "21.0.0-next.0",
+    "@angular/compiler": "21.0.0-next.0",
+    "@angular/core": "21.0.0-next.0",
+    "@angular/platform-browser": "21.0.0-next.0",
+    "@angular/platform-server": "21.0.0-next.0",
+    "@angular/router": "21.0.0-next.0",
+    "@schematics/angular": "workspace:*",
+    "beasties": "0.3.5"
+  },
+  "sideEffects": false,
+  "schematics": "./schematics/collection.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular/angular-cli.git"
+  }
+}
