@@ -1,2 +1,16 @@
-<p>contacts-page works!</p>
-<a routerLink="login">Ir a login</a>
+<!-- <a routerLink="login">Ir a login</a> -->
+ <div>
+  <span>Nombre</span>
+  <span>Telefono</span>
+  <span>Email</span>
+  <span>Grupos</span>
+  <span>Acciones</span>
+ </div>
+ <ul>
+   @for (contactoIndividual of contactsService.contacts; track $index) {
+    <a [routerLink]="['/contacts',contactoIndividual.id]">
+      <app-contact-list-item [contact]="contactoIndividual"></app-contact-list-item>
+    </a>
+  }
+ </ul>
+ <a routerLink="/contacts/new">Nuevo contacto</a>

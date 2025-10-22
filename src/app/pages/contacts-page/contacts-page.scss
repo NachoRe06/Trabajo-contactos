@@ -1,0 +1,45 @@
+@use "./../../../../public/styles/forms-pages.scss";
+
+.error{
+    color: var(--color-error);
+}
+
+div {
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 30px;
+    color: #333;
+    margin-left: 8cm;
+    margin-top: 20px;
+}
+
+div > span {
+    font-weight: 600;
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+ul {
+    margin-top: 20px;
+}
+a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #333;
+    padding: 12px 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+a:hover {
+    transform: scale(1.01);
+    background-color: rgba(91, 134, 229, 0.15);
+    box-shadow: 0 4px 10px rgba(91, 134, 229, 0.25);
+}

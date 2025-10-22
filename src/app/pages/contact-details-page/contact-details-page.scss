@@ -1,0 +1,62 @@
+#container{
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    padding: 40px 50px;
+    width: 350px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2cm;
+}
+h1 {
+  border: none;
+  padding: 12px;
+  text-align: center;
+  font-size: 28px;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+p {
+  border: none;
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+}
+button,
+.favorito,
+.editar{
+  background-color: #2563eb;
+  display: inline-block;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.favorito:hover {
+  background-color: #1d4ed8;
+}
+
+.editar:hover {
+  background-color: #1d4ed8;
+}   
+.eliminar {
+  background-color: #ef4444;
+  display: inline-block;
+  width: 50%;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 0;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+.eliminar:hover {
+  background-color: #dc2626;
+}

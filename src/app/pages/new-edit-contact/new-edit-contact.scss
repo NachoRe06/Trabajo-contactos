@@ -1,0 +1,56 @@
+#container.card {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px 50px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    color: #2b3a55;
+    font-size: 1cm;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+label {
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+input[type="text"],
+input[type="email"] {
+    padding: 10px 12px;
+    border: 1.8px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    accent-color: #5b86e5;
+    cursor: pointer;
+}
+.error {
+    color: #e63946;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    font-weight: 500;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #36d1dc, #5b86e5);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer
+}
